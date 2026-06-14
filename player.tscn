@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cm2kmu7iwxrd4"]
+
+[ext_resource type="Texture2D" uid="uid://37uugxl4jnqg" path="res://character_purple_duck.png" id="1_4flbx"]
+
+[node name="Player" type="RigidBody2D" unique_id=558919583]
+position = Vector2(541, 30)
+mass = 0.001
+gravity_scale = 0.0
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=244341678]
+texture = ExtResource("1_4flbx")
